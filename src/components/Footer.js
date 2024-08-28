@@ -7,16 +7,16 @@ export default function Footer() {
     <footer>
       <div className="icon-container">
         <a href="#">
-          <img src={GithubIcon} />
+          <img src={GithubIcon} alt="Github Icon"/>
         </a>
         <a href="#">
-          <img src={FacebookIcon} />
+          <img src={FacebookIcon} alt="Facebook Icon"/>
         </a>
         <a href="#">
-          <img src={InstagramIcon} />
+          <img src={InstagramIcon} alt=" Instagram Icon " />
         </a>
         <a href="#">
-          <img src={TwitterIcon} />
+          <img src={TwitterIcon} alt= "Twitter Icon" />
         </a>
       </div>
     </footer>
