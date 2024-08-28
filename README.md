@@ -1,1 +1,1 @@
-businesscardtahircdincer.netlify.app
+https://businesscardtahircdincer.netlify.app
