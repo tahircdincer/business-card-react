@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  overflow: hidden;
 }
 body {
   font-family: "Inter", sans-serif;
@@ -118,4 +119,14 @@ footer {
 /* Container below the image which contains all information ( above footer )*/
 .container__info {
   padding: 2.1rem 1.8rem;
+}
+.card {
+  border-radius: 5px;
+}
+.page-container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  background-color: #23252c;
 }
