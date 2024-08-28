@@ -3,9 +3,84 @@
   padding: 0px;
   box-sizing: border-box;
 }
+body {
+  font-family: Inter;
+}
+
+/* Main Card */
 
 .card {
   width: 317px;
   height: 780px;
   background-color: #1a1b21;
+}
+
+/* Card Info Section */
+
+/* img person */
+
+.img-person {
+  width: 100%;
+}
+
+/* Person' s Informations */
+
+.person-info {
+  font-family: Inter;
+  font-size: 20px;
+  color: white;
+  font-weight: 700;
+  line-height: 30.26px;
+  text-align: center;
+}
+.person-info > h1 {
+  margin-bottom: 6px;
+  margin-top: 21px;
+}
+.person-info > h2 {
+  color: #f3bf99;
+  font-family: Inter;
+  font-size: 12.8px;
+  font-weight: 400;
+  line-height: 15.49px;
+  text-align: center;
+  margin-bottom: 39px;
+}
+
+/* Buttons inside Information section */
+
+.btn {
+  display: flex;
+  color: white;
+  padding: 0.5rem 1.5rem;
+  gap: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+  justify-content: center;
+  font-weight: bold;
+  align-items: center;
+}
+.btn-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+.btn__email {
+  background-color: #d1d5db;
+}
+
+.btn__email:hover {
+  background-color: #a9abad;
+  transition: 1s ease-in-out;
+}
+.btn__linkedin {
+  background-color: #5093e2;
+}
+.btn__linkedin:hover {
+  background-color: #1d79e3;
+  transition: 1s ease-in-out;
+}
+
+/* Container below the image which contains all information ( above footer )*/
+.container__info {
+  padding: 35px 25px;
 }

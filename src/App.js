@@ -1,8 +1,12 @@
-import logo from "./logo.svg";
+import Info from "./components/Info";
 import "./App.css";
 
 function Card() {
-  return <div className="card"></div>;
+  return (
+    <div className="card">
+      <Info />
+    </div>
+  );
 }
 function App() {
   return (
